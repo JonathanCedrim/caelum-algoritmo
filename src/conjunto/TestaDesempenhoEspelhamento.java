@@ -6,13 +6,11 @@ public class TestaDesempenhoEspelhamento {
 		
 		ConjuntoEspalhamento conjunto = new ConjuntoEspalhamento();
 		
-		for(int i = 0; i < 500000; i++){
-			conjunto.adiciona("palavra" + i);
+		for(int i = 0; i < 5000; i++){
+			conjunto.adiciona("palavra");
 		}
 		
-		for(int i = 0; i < 500000; i++){
-			conjunto.contem("palavra" + i);
-		}
+	
 		
 		//System.out.println(conjunto.toString());
 		
