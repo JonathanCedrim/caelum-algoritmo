@@ -1,4 +1,4 @@
-package Associativo;
+package associativo;
 
 public class Associacao<C, V> {
 	private C chave;

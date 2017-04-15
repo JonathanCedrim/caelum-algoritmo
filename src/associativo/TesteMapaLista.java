@@ -1,4 +1,4 @@
-package Associativo;
+package associativo;
 
 public class TesteMapaLista {
 	public static void main(String[] args) {
